@@ -11,7 +11,7 @@ class WelcomeScreen extends StatelessWidget {
         children: [
           Spacer(),
           Text(
-            "Selamat datang ",
+            "Welcome ",
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
           Spacer(),
