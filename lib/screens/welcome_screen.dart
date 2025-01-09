@@ -10,12 +10,16 @@ class WelcomeScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Spacer(),
-          Placeholder(fallbackHeight: 200), // Gambar/logo
           Text(
-            "Welcome",
+            "Selamat datang ",
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
           Spacer(),
+          Image.asset(
+              'assets/images/WhatsApp Image 2024-05-21 at 18.35.39_bd3ebd57.jpg', 
+              height: 200, 
+            ),
+            SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
