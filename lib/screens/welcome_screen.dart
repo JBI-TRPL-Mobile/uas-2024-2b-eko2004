@@ -16,7 +16,7 @@ class WelcomeScreen extends StatelessWidget {
           ),
           Spacer(),
           Image.asset(
-              'assets/images/WhatsApp Image 2024-05-21 at 18.35.39_bd3ebd57.jpg', 
+              'assets/', 
               height: 200, 
             ),
             SizedBox(height: 20),
